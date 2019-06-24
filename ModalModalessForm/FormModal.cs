@@ -11,6 +11,13 @@ namespace ModalModalessForm
 {
     public partial class FormModal : Form
     {
+
+        public string Title //변수인데 메소드처럼 쓰는 프로퍼티?
+        {
+            set { this.Text = value; }
+        }
+
+
         public FormModal()
         {
             InitializeComponent();
